@@ -1,0 +1,25 @@
+/* Estilo para el cuerpo del documento */
+body {
+    /* Fondo con un gradiente lineal inclinado */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* Tamaño del fondo del gradiente */
+    background-size: 400% 400%;
+    /* Animación del gradiente */
+    animation: gradient 15s ease infinite; /* Nombre de la animación, duración, función de temporización y repetición infinita */
+}
+
+/* Definición de la animación del gradiente */
+@keyframes gradient {
+    /* Primer keyframe */
+    0% {
+        background-position: 0% 50%; /* Posición inicial del gradiente */
+    }
+    /* Segundo keyframe */
+    50% {
+        background-position: 100% 50%; /* Posición intermedia del gradiente */
+    }
+    /* Tercer keyframe */
+    100% {
+        background-position: 0% 50%; /* Posición final del gradiente */
+    }
+}
